@@ -7,14 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E84D83A04867EBC407CA898 /* Pods_GoTime.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14CDE8C0BAD89F91A5C755C4 /* Pods_GoTime.framework */; };
+		820D5DC56F51D63849CC7EFB /* Pods_GoTimeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 018E8AE6B34BFB3B55562700 /* Pods_GoTimeTests.framework */; };
+		E110E4741F1ED2F3003ABB74 /* SignInVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E110E4731F1ED2F3003ABB74 /* SignInVC.swift */; };
+		E14C844E1F6E215000821978 /* FeedVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E14C844D1F6E215000821978 /* FeedVC.swift */; };
+		E14C84501F747DB300821978 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E14C844F1F747DB300821978 /* CoreData.framework */; };
+		E14C84901F7488DE00821978 /* GoTime.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E14C848E1F7488DE00821978 /* GoTime.xcdatamodeld */; };
 		E16D1C121EDCBDA100806F7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D1C111EDCBDA100806F7E /* AppDelegate.swift */; };
 		E16D1C141EDCBDA100806F7E /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D1C131EDCBDA100806F7E /* FirstViewController.swift */; };
-		E16D1C161EDCBDA100806F7E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D1C151EDCBDA100806F7E /* SecondViewController.swift */; };
+		E16D1C161EDCBDA100806F7E /* JournalVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D1C151EDCBDA100806F7E /* JournalVC.swift */; };
 		E16D1C191EDCBDA100806F7E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16D1C171EDCBDA100806F7E /* Main.storyboard */; };
 		E16D1C1B1EDCBDA100806F7E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E16D1C1A1EDCBDA100806F7E /* Assets.xcassets */; };
 		E16D1C1E1EDCBDA100806F7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E16D1C1C1EDCBDA100806F7E /* LaunchScreen.storyboard */; };
 		E16D1C291EDCBDA200806F7E /* GoTimeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D1C281EDCBDA200806F7E /* GoTimeTests.swift */; };
 		E16D1C341EDCBDA200806F7E /* GoTimeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D1C331EDCBDA200806F7E /* GoTimeUITests.swift */; };
+		E16D1C431EDD0CBC00806F7E /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D1C421EDD0CBC00806F7E /* CalendarViewController.swift */; };
+		E16D1C451EDD1D0700806F7E /* NewTaskViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E16D1C441EDD1D0700806F7E /* NewTaskViewController.swift */; };
+		E1A1203E1F1DB31A00BB6B7E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = E1A1203D1F1DB31A00BB6B7E /* GoogleService-Info.plist */; };
+		E1B2B2881FBE3EC800DCA90B /* EntryCompletdTasksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B2B2871FBE3EC800DCA90B /* EntryCompletdTasksVC.swift */; };
+		E1B2B28A1FBE476C00DCA90B /* EditTaskVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B2B2891FBE476C00DCA90B /* EditTaskVC.swift */; };
+		E1CAD18C1FC29AD600D7F537 /* GradientBackgroundUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CAD18B1FC29AD500D7F537 /* GradientBackgroundUtil.swift */; };
+		E1CE95E61FAFF55B002741A8 /* EntryVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CE95E51FAFF55A002741A8 /* EntryVC.swift */; };
+		E1CE95E81FB04215002741A8 /* CalendarCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1CE95E71FB04215002741A8 /* CalendarCell.swift */; };
+		E1DD8B1B1FBBD366007B94EE /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1DD8B1A1FBBD366007B94EE /* TaskTableViewCell.swift */; };
+		E1EC63C81FA83BE50002D5D6 /* CompletedTasksVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1EC63C71FA83BE30002D5D6 /* CompletedTasksVC.swift */; };
+		E1ECAA851F95649800EDA136 /* AddGroupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1ECAA841F95649800EDA136 /* AddGroupVC.swift */; };
+		E6FE0F7F29B5556048AF5C92 /* Pods_GoTimeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 501B83272AC57A013413DC0A /* Pods_GoTimeUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,10 +53,23 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		018E8AE6B34BFB3B55562700 /* Pods_GoTimeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoTimeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		130ADD9853BB1778FBF11587 /* Pods-GoTimeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoTimeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoTimeUITests/Pods-GoTimeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		14CDE8C0BAD89F91A5C755C4 /* Pods_GoTime.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoTime.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		501B83272AC57A013413DC0A /* Pods_GoTimeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GoTimeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		67FA7E617EED0E48680AD897 /* Pods-GoTimeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoTimeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoTimeTests/Pods-GoTimeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		7C1F941848ECC8FD06F41450 /* Pods-GoTime.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoTime.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoTime/Pods-GoTime.debug.xcconfig"; sourceTree = "<group>"; };
+		8F1812FDCF3DE01BE5AD59E1 /* Pods-GoTime.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoTime.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoTime/Pods-GoTime.release.xcconfig"; sourceTree = "<group>"; };
+		C57E078F61A1B2431AD68B9F /* Pods-GoTimeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoTimeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-GoTimeUITests/Pods-GoTimeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D52EF9AB674725A43FD377A7 /* Pods-GoTimeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GoTimeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-GoTimeTests/Pods-GoTimeTests.release.xcconfig"; sourceTree = "<group>"; };
+		E110E4731F1ED2F3003ABB74 /* SignInVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInVC.swift; sourceTree = "<group>"; };
+		E14C844D1F6E215000821978 /* FeedVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedVC.swift; sourceTree = "<group>"; };
+		E14C844F1F747DB300821978 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		E14C848F1F7488DE00821978 /* GoTime.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GoTime.xcdatamodel; sourceTree = "<group>"; };
 		E16D1C0E1EDCBDA100806F7E /* GoTime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoTime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16D1C111EDCBDA100806F7E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E16D1C131EDCBDA100806F7E /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		E16D1C151EDCBDA100806F7E /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		E16D1C151EDCBDA100806F7E /* JournalVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JournalVC.swift; sourceTree = "<group>"; };
 		E16D1C181EDCBDA100806F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E16D1C1A1EDCBDA100806F7E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E16D1C1D1EDCBDA100806F7E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +80,18 @@
 		E16D1C2F1EDCBDA200806F7E /* GoTimeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GoTimeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E16D1C331EDCBDA200806F7E /* GoTimeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoTimeUITests.swift; sourceTree = "<group>"; };
 		E16D1C351EDCBDA200806F7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E16D1C421EDD0CBC00806F7E /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		E16D1C441EDD1D0700806F7E /* NewTaskViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewTaskViewController.swift; sourceTree = "<group>"; };
+		E1A1203D1F1DB31A00BB6B7E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		E1B2B2871FBE3EC800DCA90B /* EntryCompletdTasksVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryCompletdTasksVC.swift; sourceTree = "<group>"; };
+		E1B2B2891FBE476C00DCA90B /* EditTaskVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditTaskVC.swift; sourceTree = "<group>"; };
+		E1CAD18B1FC29AD500D7F537 /* GradientBackgroundUtil.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GradientBackgroundUtil.swift; sourceTree = "<group>"; };
+		E1CE95E41FAFAB54002741A8 /* GoTime 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "GoTime 2.xcdatamodel"; sourceTree = "<group>"; };
+		E1CE95E51FAFF55A002741A8 /* EntryVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryVC.swift; sourceTree = "<group>"; };
+		E1CE95E71FB04215002741A8 /* CalendarCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarCell.swift; sourceTree = "<group>"; };
+		E1DD8B1A1FBBD366007B94EE /* TaskTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
+		E1EC63C71FA83BE30002D5D6 /* CompletedTasksVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompletedTasksVC.swift; sourceTree = "<group>"; };
+		E1ECAA841F95649800EDA136 /* AddGroupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +99,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E14C84501F747DB300821978 /* CoreData.framework in Frameworks */,
+				4E84D83A04867EBC407CA898 /* Pods_GoTime.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +108,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				820D5DC56F51D63849CC7EFB /* Pods_GoTimeTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +116,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6FE0F7F29B5556048AF5C92 /* Pods_GoTimeUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		422088C6E5CFB44D18ABE550 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E14C844F1F747DB300821978 /* CoreData.framework */,
+				14CDE8C0BAD89F91A5C755C4 /* Pods_GoTime.framework */,
+				018E8AE6B34BFB3B55562700 /* Pods_GoTimeTests.framework */,
+				501B83272AC57A013413DC0A /* Pods_GoTimeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B23234E894604E01821DEE42 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7C1F941848ECC8FD06F41450 /* Pods-GoTime.debug.xcconfig */,
+				8F1812FDCF3DE01BE5AD59E1 /* Pods-GoTime.release.xcconfig */,
+				67FA7E617EED0E48680AD897 /* Pods-GoTimeTests.debug.xcconfig */,
+				D52EF9AB674725A43FD377A7 /* Pods-GoTimeTests.release.xcconfig */,
+				C57E078F61A1B2431AD68B9F /* Pods-GoTimeUITests.debug.xcconfig */,
+				130ADD9853BB1778FBF11587 /* Pods-GoTimeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E16D1C051EDCBDA100806F7E = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +154,8 @@
 				E16D1C271EDCBDA200806F7E /* GoTimeTests */,
 				E16D1C321EDCBDA200806F7E /* GoTimeUITests */,
 				E16D1C0F1EDCBDA100806F7E /* Products */,
+				B23234E894604E01821DEE42 /* Pods */,
+				422088C6E5CFB44D18ABE550 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,12 +172,27 @@
 		E16D1C101EDCBDA100806F7E /* GoTime */ = {
 			isa = PBXGroup;
 			children = (
+				E16D1C411EDD084100806F7E /* Assets */,
 				E16D1C111EDCBDA100806F7E /* AppDelegate.swift */,
+				E14C848E1F7488DE00821978 /* GoTime.xcdatamodeld */,
+				E14C844D1F6E215000821978 /* FeedVC.swift */,
 				E16D1C131EDCBDA100806F7E /* FirstViewController.swift */,
-				E16D1C151EDCBDA100806F7E /* SecondViewController.swift */,
+				E110E4731F1ED2F3003ABB74 /* SignInVC.swift */,
+				E16D1C151EDCBDA100806F7E /* JournalVC.swift */,
+				E1CAD18B1FC29AD500D7F537 /* GradientBackgroundUtil.swift */,
+				E16D1C421EDD0CBC00806F7E /* CalendarViewController.swift */,
+				E16D1C441EDD1D0700806F7E /* NewTaskViewController.swift */,
 				E16D1C171EDCBDA100806F7E /* Main.storyboard */,
+				E1B2B2891FBE476C00DCA90B /* EditTaskVC.swift */,
+				E1B2B2871FBE3EC800DCA90B /* EntryCompletdTasksVC.swift */,
+				E1CE95E71FB04215002741A8 /* CalendarCell.swift */,
+				E1CE95E51FAFF55A002741A8 /* EntryVC.swift */,
+				E1DD8B1A1FBBD366007B94EE /* TaskTableViewCell.swift */,
+				E1EC63C71FA83BE30002D5D6 /* CompletedTasksVC.swift */,
+				E1ECAA841F95649800EDA136 /* AddGroupVC.swift */,
 				E16D1C1A1EDCBDA100806F7E /* Assets.xcassets */,
 				E16D1C1C1EDCBDA100806F7E /* LaunchScreen.storyboard */,
+				E1A1203D1F1DB31A00BB6B7E /* GoogleService-Info.plist */,
 				E16D1C1F1EDCBDA100806F7E /* Info.plist */,
 			);
 			path = GoTime;
@@ -128,6 +216,13 @@
 			path = GoTimeUITests;
 			sourceTree = "<group>";
 		};
+		E16D1C411EDD084100806F7E /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E16D1C381EDCBDA200806F7E /* Build configuration list for PBXNativeTarget "GoTime" */;
 			buildPhases = (
+				54E0595FA6FD2730B56D7789 /* [CP] Check Pods Manifest.lock */,
 				E16D1C0A1EDCBDA100806F7E /* Sources */,
 				E16D1C0B1EDCBDA100806F7E /* Frameworks */,
 				E16D1C0C1EDCBDA100806F7E /* Resources */,
+				B8434C5904D72C104F0540D7 /* [CP] Embed Pods Frameworks */,
+				09E232A87666C236EDEA7E2D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -152,9 +250,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E16D1C3B1EDCBDA200806F7E /* Build configuration list for PBXNativeTarget "GoTimeTests" */;
 			buildPhases = (
+				470DEE6435D1261020653186 /* [CP] Check Pods Manifest.lock */,
 				E16D1C201EDCBDA200806F7E /* Sources */,
 				E16D1C211EDCBDA200806F7E /* Frameworks */,
 				E16D1C221EDCBDA200806F7E /* Resources */,
+				FE8B5679A7D97D46482E7807 /* [CP] Embed Pods Frameworks */,
+				E002E02709DA28CB7378CCD5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -170,9 +271,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E16D1C3E1EDCBDA200806F7E /* Build configuration list for PBXNativeTarget "GoTimeUITests" */;
 			buildPhases = (
+				DA4E4618DEF60095F81A76BC /* [CP] Check Pods Manifest.lock */,
 				E16D1C2B1EDCBDA200806F7E /* Sources */,
 				E16D1C2C1EDCBDA200806F7E /* Frameworks */,
 				E16D1C2D1EDCBDA200806F7E /* Resources */,
+				3E1A852A258FE984CF883715 /* [CP] Embed Pods Frameworks */,
+				F7EFC1787D2454DA6CC0CB75 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -196,6 +300,7 @@
 				TargetAttributes = {
 					E16D1C0D1EDCBDA100806F7E = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CMDXCB7DS3;
 						ProvisioningStyle = Automatic;
 					};
 					E16D1C231EDCBDA200806F7E = {
@@ -236,6 +341,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				E16D1C1E1EDCBDA100806F7E /* LaunchScreen.storyboard in Resources */,
+				E1A1203E1F1DB31A00BB6B7E /* GoogleService-Info.plist in Resources */,
 				E16D1C1B1EDCBDA100806F7E /* Assets.xcassets in Resources */,
 				E16D1C191EDCBDA100806F7E /* Main.storyboard in Resources */,
 			);
@@ -257,14 +363,165 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09E232A87666C236EDEA7E2D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoTime/Pods-GoTime-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3E1A852A258FE984CF883715 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoTimeUITests/Pods-GoTimeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		470DEE6435D1261020653186 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		54E0595FA6FD2730B56D7789 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B8434C5904D72C104F0540D7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoTime/Pods-GoTime-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA4E4618DEF60095F81A76BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		E002E02709DA28CB7378CCD5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoTimeTests/Pods-GoTimeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F7EFC1787D2454DA6CC0CB75 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoTimeUITests/Pods-GoTimeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FE8B5679A7D97D46482E7807 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-GoTimeTests/Pods-GoTimeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E16D1C0A1EDCBDA100806F7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E16D1C161EDCBDA100806F7E /* SecondViewController.swift in Sources */,
+				E14C84901F7488DE00821978 /* GoTime.xcdatamodeld in Sources */,
+				E1DD8B1B1FBBD366007B94EE /* TaskTableViewCell.swift in Sources */,
+				E16D1C431EDD0CBC00806F7E /* CalendarViewController.swift in Sources */,
+				E1CAD18C1FC29AD600D7F537 /* GradientBackgroundUtil.swift in Sources */,
+				E14C844E1F6E215000821978 /* FeedVC.swift in Sources */,
+				E16D1C451EDD1D0700806F7E /* NewTaskViewController.swift in Sources */,
+				E110E4741F1ED2F3003ABB74 /* SignInVC.swift in Sources */,
+				E1CE95E61FAFF55B002741A8 /* EntryVC.swift in Sources */,
+				E1B2B28A1FBE476C00DCA90B /* EditTaskVC.swift in Sources */,
+				E16D1C161EDCBDA100806F7E /* JournalVC.swift in Sources */,
+				E1B2B2881FBE3EC800DCA90B /* EntryCompletdTasksVC.swift in Sources */,
+				E1CE95E81FB04215002741A8 /* CalendarCell.swift in Sources */,
 				E16D1C121EDCBDA100806F7E /* AppDelegate.swift in Sources */,
+				E1EC63C81FA83BE50002D5D6 /* CompletedTasksVC.swift in Sources */,
 				E16D1C141EDCBDA100806F7E /* FirstViewController.swift in Sources */,
+				E1ECAA851F95649800EDA136 /* AddGroupVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -416,9 +673,12 @@
 		};
 		E16D1C391EDCBDA200806F7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C1F941848ECC8FD06F41450 /* Pods-GoTime.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CMDXCB7DS3;
 				INFOPLIST_FILE = GoTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = My.GoTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -428,9 +688,12 @@
 		};
 		E16D1C3A1EDCBDA200806F7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8F1812FDCF3DE01BE5AD59E1 /* Pods-GoTime.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CMDXCB7DS3;
 				INFOPLIST_FILE = GoTime/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = My.GoTime;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -440,6 +703,7 @@
 		};
 		E16D1C3C1EDCBDA200806F7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 67FA7E617EED0E48680AD897 /* Pods-GoTimeTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -454,6 +718,7 @@
 		};
 		E16D1C3D1EDCBDA200806F7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D52EF9AB674725A43FD377A7 /* Pods-GoTimeTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -468,6 +733,7 @@
 		};
 		E16D1C3F1EDCBDA200806F7E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C57E078F61A1B2431AD68B9F /* Pods-GoTimeUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GoTimeUITests/Info.plist;
@@ -481,6 +747,7 @@
 		};
 		E16D1C401EDCBDA200806F7E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 130ADD9853BB1778FBF11587 /* Pods-GoTimeUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = GoTimeUITests/Info.plist;
@@ -511,6 +778,7 @@
 				E16D1C3A1EDCBDA200806F7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E16D1C3B1EDCBDA200806F7E /* Build configuration list for PBXNativeTarget "GoTimeTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +787,7 @@
 				E16D1C3D1EDCBDA200806F7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		E16D1C3E1EDCBDA200806F7E /* Build configuration list for PBXNativeTarget "GoTimeUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,8 +796,23 @@
 				E16D1C401EDCBDA200806F7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		E14C848E1F7488DE00821978 /* GoTime.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				E1CE95E41FAFAB54002741A8 /* GoTime 2.xcdatamodel */,
+				E14C848F1F7488DE00821978 /* GoTime.xcdatamodel */,
+			);
+			currentVersion = E1CE95E41FAFAB54002741A8 /* GoTime 2.xcdatamodel */;
+			path = GoTime.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = E16D1C061EDCBDA100806F7E /* Project object */;
 }
